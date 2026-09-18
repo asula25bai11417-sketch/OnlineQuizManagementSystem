@@ -1,0 +1,5 @@
+Q101|Which keyword is used to inherit a class in Java?|implements|extends|inherits|super|B|Java|Easy
+Q102|Which method is used to start the execution of a Java program?|start()|main()|execute()|run()|B|Java|Easy
+Q103|Which keyword is used to create an object in Java?|new|class|object|create|A|Java|Easy
+Q104|Which data type is used to store a whole number in Java?|int|float|char|boolean|A|java|Easy
+Q105|Which symbol is used to end a statement in Java?|:|;|.|,|B|Java|Easy
