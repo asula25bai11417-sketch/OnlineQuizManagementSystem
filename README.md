@@ -61,39 +61,7 @@ Validation and Error Handling
 - Version Control: Git and GitHub
 - Operating System: Windows
 
-5. Project Structure
-
-OnlineQuizManagementSystem/
-│
-├── src/
-│   ├── Main.java
-│   │
-│   ├── model/
-│   │   ├── Student.java
-│   │   ├── Admin.java
-│   │   ├── Question.java
-│   │   └── Result.java
-│   │
-│   ├── service/
-│   │   ├── StudentService.java
-│   │   ├── AdminService.java
-│   │   ├── QuizService.java
-│   │   └── ResultService.java
-│   │
-│   └── util/
-│       ├── FileManager.java
-│       └── InputValidator.java
-│
-├── data/
-│   ├── students.txt
-│   ├── questions.txt
-│   └── results.txt
-│
-├── README.md
-├── statement.md
-└── .gitignore
-
-6. How to Run
+5. How to Run
 
 1. Install Java JDK.
 2. Open the project folder in Visual Studio Code.
@@ -106,12 +74,12 @@ javac -d out src/Main.java src/model/*.java src/service/*.java src/util/*.java
 
 java -cp out Main
 
-7. Default Admin Login
+6. Default Admin Login
 
 Username: admin
 Password: admin123
 
-8. Student Workflow
+7. Student Workflow
 
 1. Student registers an account.
 2. Student logs in using email and password.
@@ -122,7 +90,7 @@ Password: admin123
 7. The result is saved to the results file.
 8. Student can view the saved result.
 
-9. Admin Workflow
+8. Admin Workflow
 
 1. Admin logs in.
 2. Admin opens the dashboard.
@@ -130,7 +98,7 @@ Password: admin123
 4. Questions are stored in the questions text file.
 5. Students can attempt the available questions.
 
-10. Testing
+9. Testing
 
 The following functions were tested:
 
@@ -152,7 +120,7 @@ The following functions were tested:
 
 A five-question quiz was successfully executed, producing a score of 5/5 and a percentage of 100%.
 
-11. Future Enhancements
+10. Future Enhancements
 
 - Database integration using MySQL.
 - Graphical user interface.
@@ -164,6 +132,6 @@ A five-question quiz was successfully executed, producing a score of 5/5 and a p
 - Password hashing and stronger authentication.
 - Detailed performance analytics.
 
-12. Conclusion
+11. Conclusion
 
 The Online Quiz Management System provides a structured solution for conducting and managing quizzes through a Java console application. The project applies object-oriented programming, file handling, validation, exception handling, and modular service-based design to implement the required functionality.
